@@ -20,11 +20,12 @@ after_success:
 branches:
   only:
     - master
-
+    
 env:
   global:
-    - GH_REF: github.com/simple-delfino/music.git
-    - GH_TOKEN: 473b07b1f638409c0bba5334e2418885087dc7a5
+    - GH_REF: github.com/xiaolannuoyi/my-vue-admin.git
+    - GH_TOKEN: 1c9318733b2469db4fa93556ff1ed8220a21cfb6
     - P_BRANCH: gh-pages
-    - U_EMAIL: 1319879149@qq.com
+    - U_EMILE: 1319879149@qq.com
     - U_NAME: simple-delfino
+
