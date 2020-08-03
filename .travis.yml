@@ -26,7 +26,7 @@ install:
 before_script:
   - git config --global user.name "simple-delfino"
   - git config --global user.email "1319879149@qq.com"
-  - git clone --branch gh-pages https://${GH_REF} dist
+  # - git clone --branch gh-pages https://${GH_REF} dist
 
 script:
   - npm test
