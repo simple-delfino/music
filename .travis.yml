@@ -23,9 +23,16 @@ branches:
     
 env:
   global:
-    - GH_REF: github.com/simple-delfino/music.git
+    - GH_REF: https://github.com/simple-delfino/music.git
     - GH_TOKEN: 1c9318733b2469db4fa93556ff1ed8220a21cfb6
     - P_BRANCH: gh-pages
     - U_EMILE: 1319879149@qq.com
     - U_NAME: simple-delfino
 
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  keep-history: true
+  on:
+    branch: master
