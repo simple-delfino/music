@@ -1,6 +1,6 @@
 # 声明
 
-> 该项目并非原创，更多内容请访问作者github地址： [ustbhuangyi](https://github.com/ustbhuangyi)
+> 该项目并非原创，参考慕课网仿网易云音乐app项目
 
 ## 项目运行
 ```bash
